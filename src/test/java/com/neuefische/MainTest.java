@@ -9,7 +9,7 @@ class MainTest {
     void main() {
         int a = 1;
         int b = 2;
-        int expected = 2;
+        int expected = 3;
 
         int actual = Main.add(a,b);
         Assertions.assertEquals(expected,actual);
